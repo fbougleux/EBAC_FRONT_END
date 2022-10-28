@@ -9,13 +9,13 @@
 <body>
     <h1>Formulario de Cadastro</h1>
     <form>
-        <label>Nome</label> <input type="text" placeholder="Seu Nome">
+        <label id="Nome">Nome</label> <input type="text" placeholder="Seu Nome">
         <br />
-        <label>E-mail</label> <input type="email" placeholder="Seu E-mail">
+        <label id="E-mail">E-mail</label> <input type="email" placeholder="Seu E-mail">
         <br />
-        <label>Senha</label> <input type="text" placeholder="Sua Senha">
+        <label id="Senha">Senha</label> <input type="password" placeholder="Sua Senha">
         <br />
-        <button>Cadastar</button>
+        <button type="submit">Cadastar</button>
     </form>
 </body>
 </html>
