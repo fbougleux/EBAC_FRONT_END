@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    background-color: rgba(126, 126, 126, 0.164);
+    text-align: center;
+    margin: 200px;
+    padding: 16px;
+}
+
+ul li{
+    margin: 16px;
+}
+
+h1{
+    margin: 16px;
+}
+
+input, button{
+    padding: 8px;
+}
+
+button{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-color: green;
+    cursor: pointer;
+}
