@@ -4,7 +4,9 @@ $(document).ready(function(){
         e.preventDefault();
         const novaTarefa = $("#inputTarefa").val()
 
-        $("ul").append(`<li>${novaTarefa}</li>`);
+        $("ul").append(`<li>${novaTarefa}</li>`)
         $("#inputTarefa").val("")
+
+        //$("li").css("text-decoration", "line-through")
     })
 })
