@@ -3,6 +3,8 @@ $(document).ready(function(){
     $("form").on("submit", function(e){
         e.preventDefault();
         const novaTarefa = $("#inputTarefa").val()
-        console.log(`${novaTarefa}`)
+
+        $("ul").append(`<li>${novaTarefa}</li>`);
+        $("#inputTarefa").val("")
     })
 })
