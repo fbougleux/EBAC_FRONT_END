@@ -7,8 +7,8 @@ $(document).ready(function(){
         $("ul").append(`<li>${novaTarefa}</li>`)
         $("#inputTarefa").val("")
 
-        $("li").click(function(){
-            $("li").css("text-decoration", "line-through")
+        $('ul').on('click', 'li', function () {
+            $(this).parent('li').toggleClass('checked');
         })
     })
 })
