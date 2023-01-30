@@ -40,3 +40,8 @@ button{
     border-color: green;
     cursor: pointer;
 }
+
+.item {
+    cursor: pointer;
+    text-decoration: none;
+}
