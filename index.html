@@ -9,18 +9,20 @@
     <title>Fundamentos do Bootstrap</title>
 </head>
 <body>
-    <form>
-        <!-- nome -->
-        <label for="nome">Seu nome: </label>
-        <input id="nome" type="text">
-        <!-- email -->
-        <label for="email">Seu e-mail: </label>
-        <input id="email" type="email">
-        <!-- telefone -->
-        <label for="telefone">Seu telefone: </label>
-        <input id="telefone" type="tel">
-        <!-- botao -->
-        <button type="submit">Enviar</button>
-    </form>
+    <div class="container">
+        <form class="was-validated">
+            <!-- nome -->
+            <label for="nome" class="form-label">Seu nome:</label>
+            <input id="nome" type="text" class="form-control" placeholder="Digite o seu nome" required>
+            <!-- email -->
+            <label for="email" class="form-label">Seu e-mail: </label>
+            <input id="email" type="email" class="form-control" placeholder="Digite o seu e-mail" required>
+            <!-- telefone -->
+            <label for="telefone" class="form-label">Seu telefone: </label>
+            <input id="telefone" type="tel" class="form-control" placeholder="Digite o seu telefone" required>
+            <!-- botao -->
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
 </body>
 </html>
